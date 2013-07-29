@@ -14,7 +14,7 @@ CC=g++
 CCFLAGS=-c -Wall -Ofast -mfpu=vfp -mfloat-abi=hard -march=armv6zk -mtune=arm1176jzf-s
 LDFLAGS=
 
-SOURCES=server.cpp sleep.cpp gpio.cpp spi.cpp nrf24.cpp
+SOURCES=server.cpp sleep.cpp timer.cpp gpio.cpp spi.cpp nrf24.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=server
 
